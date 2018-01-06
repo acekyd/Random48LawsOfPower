@@ -1,241 +1,394 @@
+
 data = [
--	{
--		"name": "1",
--		"title": "Never Outshine the Master",
--		"desc": "Always make those above you feel comfortably superior. In your desire to please or impress them, do not go too far in displaying your talents or you might accomplish the opposite – inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power."
--	},
--	{
--		"name": "2",
--		"title": "Never put too Much Trust in Friends, Learn how to use Enemies",
--		"desc": "Be wary of friends-they will betray you more quickly, for they are easily aroused to envy. They also become spoiled and tyrannical. But hire a former enemy and he will be more loyal than a friend, because he has more to prove. In fact, you have more to fear from friends than from enemies. If you have no enemies, find a way to make them."
--	},
--	{
--		"name": "3",
--		"title": "Conceal your Intentions",
--		"desc": "Keep people off-balance and in the dark by never revealing the purpose behind your actions. If they have no clue what you are up to, they cannot prepare a defense. Guide them far enough down the wrong path, envelope them in enough smoke, and by the time they realize your intentions, it will be too late."
--	},
--	{
--		"name": "4",
--		"title": "Always Say Less than Necessary",
--		"desc": "When you are trying to impress people with words, the more you say, the more common you appear, and the less in control. Even if you are saying something banal, it will seem original if you make it vague, open-ended, and sphinxlike. Powerful people impress and intimidate by saying less. The more you say, the more likely you are to say something foolish."
--	},
--	{
--		"name": "5",
--		"title": "So Much Depends on Reputation – Guard it with your Life",
--		"desc": "Reputation is the cornerstone of power. Through reputation alone you can intimidate and win; once you slip, however, you are vulnerable, and will be attacked on all sides. Make your reputation unassailable. Always be alert to potential attacks and thwart them before they happen. Meanwhile, learn to destroy your enemies by opening holes in their own reputations. Then stand aside and let public opinion hang them."
--	},
--	{
--		"name": "6",
--		"title": "Court Attention at all Cost",
--		"desc": "Everything is judged by its appearance; what is unseen counts for nothing. Never let yourself get lost in the crowd, then, or buried in oblivion. Stand out. Be conspicuous, at all cost. Make yourself a magnet of attention by appearing larger, more colorful, more mysterious, than the bland and timid masses."
--	},
--	{
--		"name": "7",
--		"title": "Get others to do the Work for you, but Always Take the Credit",
--		"desc": "Use the wisdom, knowledge, and legwork of other people to further your own cause. Not only will such assistance save you valuable time and energy, it will give you a godlike aura of efficiency and speed. In the end your helpers will be forgotten and you will be remembered. Never do yourself what others can do for you."
--	},
--	{
--		"name": "8",
--		"title": "Make other People come to you – use Bait if Necessary",
--		"desc": "When you force the other person to act, you are the one in control. It is always better to make your opponent come to you, abandoning his own plans in the process. Lure him with fabulous gains – then attack. You hold the cards."
--	},
--	{
--		"name": "9",
--		"title": "Win through your Actions, Never through Argument",
--		"desc": "Any momentary triumph you think gained through argument is really a Pyrrhic victory: The resentment and ill will you stir up is stronger and lasts longer than any momentary change of opinion. It is much more powerful to get others to agree with you through your actions, without saying a word. Demonstrate, do not explicate."
--	},
--	{
--		"name": "10",
--		"title": "Infection: Avoid the Unhappy and Unlucky",
--		"desc": "You can die from someone else’s misery – emotional states are as infectious as disease. You may feel you are helping the drowning man but you are only precipitating your own disaster. The unfortunate sometimes draw misfortune on themselves; they will also draw it on you. Associate with the happy and fortunate instead."
--	},
--	{
--		"name": "11",
--		"title": "Learn to Keep People Dependent on You",
--		"desc": "To maintain your independence you must always be needed and wanted. The more you are relied on, the more freedom you have. Make people depend on you for their happiness and prosperity and you have nothing to fear. Never teach them enough so that they can do without you."
--	},
--	{
--		"name": "12",
--		"title": "Use Selective Honesty and Generosity to Disarm your Victim",
--		"desc": "One sincere and honest move will cover over dozens of dishonest ones. Open-hearted gestures of honesty and generosity bring down the guard of even the most suspicious people. Once your selective honesty opens a hole in their armor,you can deceive and manipulate them at will. A timely gift – a Trojan horse – will serve the same purpose."
--	},
--	{
--		"name": "13",
--		"title": "When Asking for Help, Appeal to People’s Self-Interest, Never to their Mercy or Gratitude",
--		"desc": "If you need to turn to an ally for help, do not bother to remind him of your past assistance and good deeds. He will find a way to ignore you. Instead, uncover something in your request, or in your alliance with him, that will benefit him, and emphasize it out of all proportion. He will respond enthusiastically when he sees something to be gained for himself."
--	},
--	{
--		"name": "14",
--		"title": "Pose as a Friend, Work as a Spy",
--		"desc": "Knowing about your rival is critical. Use spies to gather valuable information that will keep you a step ahead. Better still: Play the spy yourself. In polite social encounters, learn to probe. Ask indirect questions to get people to reveal their weaknesses and intentions. There is no occasion that is not an opportunity for artful spying."
--	},
--	{
--		"name": "15",
--		"title": "Crush your Enemy Totally",
--		"desc": "All great leaders since Moses have known that a feared enemy must be crushed completely. (Sometimes they have learned this the hard way.) If one ember is left alight, no matter how dimly it smolders, a fire will eventually break out. More is lost through stopping halfway than through total annihilation: The enemy will recover, and will seek revenge. Crush him, not only in body but in spirit."
--	},
--	{
--		"name": "16",
--		"title": "Use Absence to Increase Respect and Honor",
--		"desc": "Too much circulation makes the price go down: The more you are seen and heard from, the more common you appear. If you are already established in a group, temporary withdrawal from it will make you more talked about, even more admired. You must learn when to leave. Create value through scarcity."
--	},
--	{
--		"name": "17",
--		"title": "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
--		"desc": "Humans are creatures of habit with an insatiable need to see familiarity in other people’s actions. Your predictability gives them a sense of control. Turn the tables: Be deliberately unpredictable. Behavior that seems to have no consistency or purpose will keep them off- balance, and they will wear themselves out trying to explain your moves. Taken to an extreme, this strategy can intimidate and terrorize."
--	},
--	{
--		"name": "18",
--		"title": "Do Not Build Fortresses to Protect Yourself – Isolation is Dangerous",
--		"desc": "The world is dangerous and enemies are everywhere – everyone has to protect themselves. A fortress seems the safest. But isolation exposes you to more dangers than it protects you from – it cuts you off from valuable information, it makes you conspicuous and an easy target. Better to circulate among people find allies, mingle. You are shielded from your enemies by the crowd."
--	},
--	{
--		"name": "19",
--		"title": "Know Who You’re Dealing with – Do Not Offend the Wrong Person",
--		"desc": "There are many different kinds of people in the world, and you can never assume that everyone will react to your strategies in the same way. Deceive or outmaneuver some people and they will spend the rest of their lives seeking revenge. They are wolves in lambs’ clothing. Choose your victims and opponents carefully, then – never offend or deceive the wrong person."
--	},
--	{
--		"name": "20",
--		"title": "Do Not Commit to Anyone",
--		"desc": "It is the fool who always rushes to take sides. Do not commit to any side or cause but yourself. By maintaining your independence, you become the master of others – playing people against one another, making them pursue you."
--	},
--	{
--		"name": "21",
--		"title": "Play a Sucker to Catch a Sucker – Seem Dumber than your Mark",
--		"desc": "No one likes feeling stupider than the next persons. The trick, is to make your victims feel smart – and not just smart, but smarter than you are. Once convinced of this, they will never suspect that you may have ulterior motives."
--	},
--	{
--		"name": "22",
--		"title": "Use the Surrender Tactic: Transform Weakness into Power",
--		"desc": "When you are weaker, never fight for honor’s sake; choose surrender instead. Surrender gives you time to recover, time to torment and irritate your conqueror, time to wait for his power to wane. Do not give him the satisfaction of fighting and defeating you – surrender first. By turning the other check you infuriate and unsettle him. Make surrender a tool of power."
--	},
--	{
--		"name": "23",
--		"title": "Concentrate Your Forces",
--		"desc": "Conserve your forces and energies by keeping them concentrated at their strongest point. You gain more by finding a rich mine and mining it deeper, than by flitting from one shallow mine to another – intensity defeats extensity every time. When looking for sources of power to elevate you, find the one key patron, the fat cow who will give you milk for a long time to come."
--	},
--	{
--		"name": "24",
--		"title": "Play the Perfect Courtier",
--		"desc": "The perfect courtier thrives in a world where everything revolves around power and political dexterity. He has mastered the art of indirection; he flatters, yields to superiors, and asserts power over others in the mot oblique and graceful manner. Learn and apply the laws of courtiership and there will be no limit to how far you can rise in the court."
--	},
--	{
--		"name": "25",
--		"title": "Re-Create Yourself",
--		"desc": "Do not accept the roles that society foists on you. Re-create yourself by forging a new identity, one that commands attention and never bores the audience. Be the master of your own image rather than letting others define if for you. Incorporate dramatic devices into your public gestures and actions – your power will be enhanced and your character will seem larger than life."
--	},
--	{
--		"name": "26",
--		"title": "Keep Your Hands Clean",
--		"desc": "You must seem a paragon of civility and efficiency: Your hands are never soiled by mistakes and nasty deeds. Maintain such a spotless appearance by using others as scapegoats and cat’s-paws to disguise your involvement."
--	},
--	{
--		"name": "27",
--		"title": "Play on People’s Need to Believe to Create a Cultlike Following",
--		"desc": "People have an overwhelming desire to believe in something. Become the focal point of such desire by offering them a cause, a new faith to follow. Keep your words vague but full of promise; emphasize enthusiasm over rationality and clear thinking. Give your new disciples rituals to perform, ask them to make sacrifices on your behalf. In the absence of organized religion and grand causes, your new belief system will bring you untold power."
--	},
--	{
--		"name": "28",
--		"title": "Enter Action with Boldness",
--		"desc": "If you are unsure of a course of action, do not attempt it. Your doubts and hesitations will infect your execution. Timidity is dangerous: Better to enter with boldness. Any mistakes you commit through audacity are easily corrected with more audacity. Everyone admires the bold; no one honors the timid."
--	},
--	{
--		"name": "29",
--		"title": "Plan All the Way to the End",
--		"desc": "The ending is everything. Plan all the way to it, taking into account all the possible consequences, obstacles, and twists of fortune that might reverse your hard work and give the glory to others. By planning to the end you will not be overwhelmed by circumstances and you will know when to stop. Gently guide fortune and help determine the future by thinking far ahead."
--	},
--	{
--		"name": "30",
--		"title": "Make your Accomplishments Seem Effortless",
--		"desc": "Your actions must seem natural and executed with ease. All the toil and practice that go into them, and also all the clever tricks, must be concealed. When you act, act effortlessly, as if you could do much more. Avoid the temptation of revealing how hard you work – it only raises questions. Teach no one your tricks or they will be used against you."
--	},
--	{
--		"name": "31",
--		"title": "Control the Options: Get Others to Play with the Cards you Deal",
--		"desc": "The best deceptions are the ones that seem to give the other person a choice: Your victims feel they are in control, but are actually your puppets. Give people options that come out in your favor whichever one they choose. Force them to make choices between the lesser of two evils, both of which serve your purpose. Put them on the horns of a dilemma: They are gored wherever they turn."
--	},
--	{
--		"name": "32",
--		"title": "Play to People’s Fantasies",
--		"desc": "The truth is often avoided because it is ugly and unpleasant. Never appeal to truth and reality unless you are prepared for the anger that comes for disenchantment. Life is so harsh and distressing that people who can manufacture romance or conjure up fantasy are like oases in the desert: Everyone flocks to them. There is great power in tapping into the fantasies of the masses."
--	},
--	{
--		"name": "33",
--		"title": "Discover Each Man’s Thumbscrew",
--		"desc": "Everyone has a weakness, a gap in the castle wall. That weakness is usually an insecurity, an uncontrollable emotion or need; it can also be a small secret pleasure. Either way, once found, it is a thumbscrew you can turn to your advantage."
--	},
--	{
--		"name": "34",
--		"title": "Be Royal in your Own Fashion: Act like a King to be treated like one",
--		"desc": "The way you carry yourself will often determine how you are treated; In the long run, appearing vulgar or common will make people disrespect you. For a king respects himself and inspires the same sentiment in others. By acting regally and confident of your powers, you make yourself seem destined to wear a crown."
--	},
--	{
--		"name": "35",
--		"title": "Master the Art of Timing",
--		"desc": "Never seem to be in a hurry – hurrying betrays a lack of control over yourself, and over time. Always seem patient, as if you know that everything will come to you eventually. Become a detective of the right moment; sniff out the spirit of the times, the trends that will carry you to power. Learn to stand back when the time is not yet ripe, and to strike fiercely when it has reached fruition."
--	},
--	{
--		"name": "36",
--		"title": "Disdain Things you cannot have: Ignoring them is the best Revenge",
--		"desc": "By acknowledging a petty problem you give it existence and credibility. The more attention you pay an enemy, the stronger you make him; and a small mistake is often made worse and more visible when you try to fix it. It is sometimes best to leave things alone. If there is something you want but cannot have, show contempt for it. The less interest you reveal, the more superior you seem."
--	},
--	{
--		"name": "37",
--		"title": "Create Compelling Spectacles",
--		"desc": "Striking imagery and grand symbolic gestures create the aura of power – everyone responds to them. Stage spectacles for those around you, then full of arresting visuals and radiant symbols that heighten your presence. Dazzled by appearances, no one will notice what you are really doing."
--	},
--	{
--		"name": "38",
--		"title": "Think as you like but Behave like others",
--		"desc": "If you make a show of going against the times, flaunting your unconventional ideas and unorthodox ways, people will think that you only want attention and that you look down upon them. They will find a way to punish you for making them feel inferior. It is far safer to blend in and nurture the common touch. Share your originality only with tolerant friends and those who are sure to appreciate your uniqueness."
--	},
--	{
--		"name": "39",
--		"title": "Stir up Waters to Catch Fish",
--		"desc": "Anger and emotion are strategically counterproductive. You must always stay calm and objective. But if you can make your enemies angry while staying calm yourself, you gain a decided advantage. Put your enemies off-balance: Find the chink in their vanity through which you can rattle them and you hold the strings."
--	},
--	{
--		"name": "40",
--		"title": "Despise the Free Lunch",
--		"desc": "What is offered for free is dangerous – it usually involves either a trick or a hidden obligation. What has worth is worth paying for. By paying your own way you stay clear of gratitude, guilt, and deceit. It is also often wise to pay the full price – there is no cutting corners with excellence. Be lavish with your money and keep it circulating, for generosity is a sign and a magnet for power."
--	},
--	{
--		"name": "41",
--		"title": "Avoid Stepping into a Great Man’s Shoes",
--		"desc": "What happens first always appears better and more original than what comes after. If you succeed a great man or have a famous parent, you will have to accomplish double their achievements to outshine them. Do not get lost in their shadow, or stuck in a past not of your own making: Establish your own name and identity by changing course. Slay the overbearing father, disparage his legacy, and gain power by shining in your own way."
--	},
--	{
--		"name": "42",
--		"title": "Strike the Shepherd and the Sheep will Scatter",
--		"desc": "Trouble can often be traced to a single strong individual – the stirrer, the arrogant underling, the poisoned of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them – they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter."
--	},
--	{
--		"name": "43",
--		"title": "Work on the Hearts and Minds of Others",
--		"desc": "Coercion creates a reaction that will eventually work against you. You must seduce others into wanting to move in your direction. A person you have seduced becomes your loyal pawn. And the way to seduce others is to operate on their individual psychologies and weaknesses. Soften up the resistant by working on their emotions, playing on what they hold dear and what they fear. Ignore the hearts and minds of others and they will grow to hate you."
--	},
--	{
--		"name": "44",
--		"title": "Disarm and Infuriate with the Mirror Effect",
--		"desc": "The mirror reflects reality, but it is also the perfect tool for deception: When you mirror your enemies, doing exactly as they do, they cannot figure out your strategy. The Mirror Effect mocks and humiliates them, making them overreact. By holding up a mirror to their psyches, you seduce them with the illusion that you share their values; by holding up a mirror to their actions, you teach them a lesson. Few can resist the power of Mirror Effect."
--	},
--	{
--		"name": "45",
--		"title": "Preach the Need for Change, but Never Reform too much at Once",
--		"desc": "Everyone understands the need for change in the abstract, but on the day-to-day level people are creatures of habit. Too much innovation is traumatic, and will lead to revolt. If you are new to a position of power, or an outsider trying to build a power base, make a show of respecting the old way of doing things. If change is necessary, make it feel like a gentle improvement on the past."
--	},
--	{
--		"name": "46",
--		"title": "Never appear too Perfect",
--		"desc": "Appearing better than others is always dangerous, but most dangerous of all is to appear to have no faults or weaknesses. Envy creates silent enemies. It is smart to occasionally display defects, and admit to harmless vices, in order to deflect envy and appear more human and approachable. Only gods and the dead can seem perfect with impunity."
--	},
--	{
--		"name": "47",
--		"title": "Do not go Past the Mark you Aimed for; In Victory, Learn when to Stop",
--		"desc": "The moment of victory is often the moment of greatest peril. In the heat of victory, arrogance and overconfidence can push you past the goal you had aimed for, and by going too far, you make more enemies than you defeat. Do not allow success to go to your head. There is no substitute for strategy and careful planning. Set a goal, and when you reach it, stop."
--	},
--	{
--		"name": "48",
--		"title": "Assume Formlessness",
--		"desc": "By taking a shape, by having a visible plan, you open yourself to attack. Instead of taking a form for your enemy to grasp, keep yourself adaptable and on the move. Accept the fact that nothing is certain and no law is fixed. The best way to protect yourself is to be as fluid and formless as water; never bet on stability or lasting order. Everything changes."
--	}
+	{
+		"name": "1",
+		"title": "Never Outshine the Master",
+		"desc": "Always make those above you feel comfortably superior. In your desire to please or impress them, do not go too far in displaying your talents or you might accomplish the opposite – inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power."
+	},
+	{
+		"name": "2",
+		"title": "Never put too Much Trust in Friends, Learn how to use Enemies",
+		"desc": "Be wary of friendsthey will betray you more quickly, for they are easily aroused to envy. They also become spoiled and tyrannical. But hire a former enemy and he will be more loyal than a friend, because he has more to prove. In fact, you have more to fear from friends than from enemies. If you have no enemies, find a way to make them."
+	},
+	{
+		"name": "3",
+		"title": "Conceal your Intentions",
+		"desc": "Keep people offbalance and in the dark by never revealing the purpose behind your actions. If they have no clue what you are up to, they cannot prepare a defense. Guide them far enough down the wrong path, envelope them in enough smoke, and by the time they realize your intentions, it will be too late."
+	},
+	{
+		"name": "4",
+		"title": "Always Say Less than Necessary",
+		"desc": "When you are trying to impress people with words, the more you say, the more common you appear, and the less in control. Even if you are saying something banal, it will seem original if you make it vague, openended, and sphinxlike. Powerful people impress and intimidate by saying less. The more you say, the more likely you are to say something foolish."
+	},
+	{
+		"name": "5",
+		"title": "So Much Depends on Reputation – Guard it with your Life",
+		"desc": "Reputation is the cornerstone of power. Through reputation alone you can intimidate and win; once you slip, however, you are vulnerable, and will be attacked on all sides. Make your reputation unassailable. Always be alert to potential attacks and thwart them before they happen. Meanwhile, learn to destroy your enemies by opening holes in their own reputations. Then stand aside and let public opinion hang them."
+	},
+	{
+		"name": "6",
+		"title": "Court Attention at all Cost",
+		"desc": "Everything is judged by its appearance; what is unseen counts for nothing. Never let yourself get lost in the crowd, then, or buried in oblivion. Stand out. Be conspicuous, at all cost. Make yourself a magnet of attention by appearing larger, more colorful, more mysterious, than the bland and timid masses."
+	},
+	{
+		"name": "7",
+		"title": "Get others to do the Work for you, but Always Take the Credit",
+		"desc": "Use the wisdom, knowledge, and legwork of other people to further your own cause. Not only will such assistance save you valuable time and energy, it will give you a godlike aura of efficiency and speed. In the end your helpers will be forgotten and you will be remembered. Never do yourself what others can do for you."
+	},
+	{
+		"name": "8",
+		"title": "Make other People come to you – use Bait if Necessary",
+		"desc": "When you force the other person to act, you are the one in control. It is always better to make your opponent come to you, abandoning his own plans in the process. Lure him with fabulous gains – then attack. You hold the cards."
+	},
+	{
+		"name": "9",
+		"title": "Win through your Actions, Never through Argument",
+		"desc": "Any momentary triumph you think gained through argument is really a Pyrrhic victory: The resentment and ill will you stir up is stronger and lasts longer than any momentary change of opinion. It is much more powerful to get others to agree with you through your actions, without saying a word. Demonstrate, do not explicate."
+	},
+	{
+		"name": "10",
+		"title": "Infection: Avoid the Unhappy and Unlucky",
+		"desc": "You can die from someone else’s misery – emotional states are as infectious as disease. You may feel you are helping the drowning man but you are only precipitating your own disaster. The unfortunate sometimes draw misfortune on themselves; they will also draw it on you. Associate with the happy and fortunate instead."
+	},
+	{
+		"name": "11",
+		"title": "Learn to Keep People Dependent on You",
+		"desc": "To maintain your independence you must always be needed and wanted. The more you are relied on, the more freedom you have. Make people depend on you for their happiness and prosperity and you have nothing to fear. Never teach them enough so that they can do without you."
+	},
+	{
+		"name": "12",
+		"title": "Use Selective Honesty and Generosity to Disarm your Victim",
+		"desc": "One sincere and honest move will cover over dozens of dishonest ones. Openhearted gestures of honesty and generosity bring down the guard of even the most suspicious people. Once your selective honesty opens a hole in their armor,you can deceive and manipulate them at will. A timely gift – a Trojan horse – will serve the same purpose."
+	},
+	{
+		"name": "13",
+		"title": "When Asking for Help, Appeal to People’s SelfInterest, Never to their Mercy or Gratitude",
+		"desc": "If you need to turn to an ally for help, do not bother to remind him of your past assistance and good deeds. He will find a way to ignore you. Instead, uncover something in your request, or in your alliance with him, that will benefit him, and emphasize it out of all proportion. He will respond enthusiastically when he sees something to be gained for himself."
+	},
+	{
+		"name": "14",
+		"title": "Pose as a Friend, Work as a Spy",
+		"desc": "Knowing about your rival is critical. Use spies to gather valuable information that will keep you a step ahead. Better still: Play the spy yourself. In polite social encounters, learn to probe. Ask indirect questions to get people to reveal their weaknesses and intentions. There is no occasion that is not an opportunity for artful spying."
+	},
+	{
+		"name": "15",
+		"title": "Crush your Enemy Totally",
+		"desc": "All great leaders since Moses have known that a feared enemy must be crushed completely. (Sometimes they have learned this the hard way.) If one ember is left alight, no matter how dimly it smolders, a fire will eventually break out. More is lost through stopping halfway than through total annihilation: The enemy will recover, and will seek revenge. Crush him, not only in body but in spirit."
+	},
+	{
+		"name": "16",
+		"title": "Use Absence to Increase Respect and Honor",
+		"desc": "Too much circulation makes the price go down: The more you are seen and heard from, the more common you appear. If you are already established in a group, temporary withdrawal from it will make you more talked about, even more admired. You must learn when to leave. Create value through scarcity."
+	},
+	{
+		"name": "17",
+		"title": "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
+		"desc": "Humans are creatures of habit with an insatiable need to see familiarity in other people’s actions. Your predictability gives them a sense of control. Turn the tables: Be deliberately unpredictable. Behavior that seems to have no consistency or purpose will keep them off balance, and they will wear themselves out trying to explain your moves. Taken to an extreme, this strategy can intimidate and terrorize."
+	},
+	{
+		"name": "18",
+		"title": "Do Not Build Fortresses to Protect Yourself – Isolation is Dangerous",
+		"desc": "The world is dangerous and enemies are everywhere – everyone has to protect themselves. A fortress seems the safest. But isolation exposes you to more dangers than it protects you from – it cuts you off from valuable information, it makes you conspicuous and an easy target. Better to circulate among people find allies, mingle. You are shielded from your enemies by the crowd."
+	},
+	{
+		"name": "19",
+		"title": "Know Who You’re Dealing with – Do Not Offend the Wrong Person",
+		"desc": "There are many different kinds of people in the world, and you can never assume that everyone will react to your strategies in the same way. Deceive or outmaneuver some people and they will spend the rest of their lives seeking revenge. They are wolves in lambs’ clothing. Choose your victims and opponents carefully, then – never offend or deceive the wrong person."
+	},
+	{
+		"name": "20",
+		"title": "Do Not Commit to Anyone",
+		"desc": "It is the fool who always rushes to take sides. Do not commit to any side or cause but yourself. By maintaining your independence, you become the master of others – playing people against one another, making them pursue you."
+	},
+	{
+		"name": "21",
+		"title": "Play a Sucker to Catch a Sucker – Seem Dumber than your Mark",
+		"desc": "No one likes feeling stupider than the next persons. The trick, is to make your victims feel smart – and not just smart, but smarter than you are. Once convinced of this, they will never suspect that you may have ulterior motives."
+	},
+	{
+		"name": "22",
+		"title": "Use the Surrender Tactic: Transform Weakness into Power",
+		"desc": "When you are weaker, never fight for honor’s sake; choose surrender instead. Surrender gives you time to recover, time to torment and irritate your conqueror, time to wait for his power to wane. Do not give him the satisfaction of fighting and defeating you – surrender first. By turning the other check you infuriate and unsettle him. Make surrender a tool of power."
+	},
+	{
+		"name": "23",
+		"title": "Concentrate Your Forces",
+		"desc": "Conserve your forces and energies by keeping them concentrated at their strongest point. You gain more by finding a rich mine and mining it deeper, than by flitting from one shallow mine to another – intensity defeats extensity every time. When looking for sources of power to elevate you, find the one key patron, the fat cow who will give you milk for a long time to come."
+	},
+	{
+		"name": "24",
+		"title": "Play the Perfect Courtier",
+		"desc": "The perfect courtier thrives in a world where everything revolves around power and political dexterity. He has mastered the art of indirection; he flatters, yields to superiors, and asserts power over others in the mot oblique and graceful manner. Learn and apply the laws of courtiership and there will be no limit to how far you can rise in the court."
+	},
+	{
+		"name": "25",
+		"title": "ReCreate Yourself",
+		"desc": "Do not accept the roles that society foists on you. Recreate yourself by forging a new identity, one that commands attention and never bores the audience. Be the master of your own image rather than letting others define if for you. Incorporate dramatic devices into your public gestures and actions – your power will be enhanced and your character will seem larger than life."
+	},
+	{
+		"name": "26",
+		"title": "Keep Your Hands Clean",
+		"desc": "You must seem a paragon of civility and efficiency: Your hands are never soiled by mistakes and nasty deeds. Maintain such a spotless appearance by using others as scapegoats and cat’spaws to disguise your involvement."
+	},
+	{
+		"name": "27",
+		"title": "Play on People’s Need to Believe to Create a Cultlike Following",
+		"desc": "People have an overwhelming desire to believe in something. Become the focal point of such desire by offering them a cause, a new faith to follow. Keep your words vague but full of promise; emphasize enthusiasm over rationality and clear thinking. Give your new disciples rituals to perform, ask them to make sacrifices on your behalf. In the absence of organized religion and grand causes, your new belief system will bring you untold power."
+	},
+	{
+		"name": "28",
+		"title": "Enter Action with Boldness",
+		"desc": "If you are unsure of a course of action, do not attempt it. Your doubts and hesitations will infect your execution. Timidity is dangerous: Better to enter with boldness. Any mistakes you commit through audacity are easily corrected with more audacity. Everyone admires the bold; no one honors the timid."
+	},
+	{
+		"name": "29",
+		"title": "Plan All the Way to the End",
+		"desc": "The ending is everything. Plan all the way to it, taking into account all the possible consequences, obstacles, and twists of fortune that might reverse your hard work and give the glory to others. By planning to the end you will not be overwhelmed by circumstances and you will know when to stop. Gently guide fortune and help determine the future by thinking far ahead."
+	},
+	{
+		"name": "30",
+		"title": "Make your Accomplishments Seem Effortless",
+		"desc": "Your actions must seem natural and executed with ease. All the toil and practice that go into them, and also all the clever tricks, must be concealed. When you act, act effortlessly, as if you could do much more. Avoid the temptation of revealing how hard you work – it only raises questions. Teach no one your tricks or they will be used against you."
+	},
+	{
+		"name": "31",
+		"title": "Control the Options: Get Others to Play with the Cards you Deal",
+		"desc": "The best deceptions are the ones that seem to give the other person a choice: Your victims feel they are in control, but are actually your puppets. Give people options that come out in your favor whichever one they choose. Force them to make choices between the lesser of two evils, both of which serve your purpose. Put them on the horns of a dilemma: They are gored wherever they turn."
+	},
+	{
+		"name": "32",
+		"title": "Play to People’s Fantasies",
+		"desc": "The truth is often avoided because it is ugly and unpleasant. Never appeal to truth and reality unless you are prepared for the anger that comes for disenchantment. Life is so harsh and distressing that people who can manufacture romance or conjure up fantasy are like oases in the desert: Everyone flocks to them. There is great power in tapping into the fantasies of the masses."
+	},
+	{
+		"name": "33",
+		"title": "Discover Each Man’s Thumbscrew",
+		"desc": "Everyone has a weakness, a gap in the castle wall. That weakness is usually an insecurity, an uncontrollable emotion or need; it can also be a small secret pleasure. Either way, once found, it is a thumbscrew you can turn to your advantage."
+	},
+	{
+		"name": "34",
+		"title": "Be Royal in your Own Fashion: Act like a King to be treated like one",
+		"desc": "The way you carry yourself will often determine how you are treated; In the long run, appearing vulgar or common will make people disrespect you. For a king respects himself and inspires the same sentiment in others. By acting regally and confident of your powers, you make yourself seem destined to wear a crown."
+	},
+	{
+		"name": "35",
+		"title": "Master the Art of Timing",
+		"desc": "Never seem to be in a hurry – hurrying betrays a lack of control over yourself, and over time. Always seem patient, as if you know that everything will come to you eventually. Become a detective of the right moment; sniff out the spirit of the times, the trends that will carry you to power. Learn to stand back when the time is not yet ripe, and to strike fiercely when it has reached fruition."
+	},
+	{
+		"name": "36",
+		"title": "Disdain Things you cannot have: Ignoring them is the best Revenge",
+		"desc": "By acknowledging a petty problem you give it existence and credibility. The more attention you pay an enemy, the stronger you make him; and a small mistake is often made worse and more visible when you try to fix it. It is sometimes best to leave things alone. If there is something you want but cannot have, show contempt for it. The less interest you reveal, the more superior you seem."
+	},
+	{
+		"name": "37",
+		"title": "Create Compelling Spectacles",
+		"desc": "Striking imagery and grand symbolic gestures create the aura of power – everyone responds to them. Stage spectacles for those around you, then full of arresting visuals and radiant symbols that heighten your presence. Dazzled by appearances, no one will notice what you are really doing."
+	},
+	{
+		"name": "38",
+		"title": "Think as you like but Behave like others",
+		"desc": "If you make a show of going against the times, flaunting your unconventional ideas and unorthodox ways, people will think that you only want attention and that you look down upon them. They will find a way to punish you for making them feel inferior. It is far safer to blend in and nurture the common touch. Share your originality only with tolerant friends and those who are sure to appreciate your uniqueness."
+	},
+	{
+		"name": "39",
+		"title": "Stir up Waters to Catch Fish",
+		"desc": "Anger and emotion are strategically counterproductive. You must always stay calm and objective. But if you can make your enemies angry while staying calm yourself, you gain a decided advantage. Put your enemies offbalance: Find the chink in their vanity through which you can rattle them and you hold the strings."
+	},
+	{
+		"name": "40",
+		"title": "Despise the Free Lunch",
+		"desc": "What is offered for free is dangerous – it usually involves either a trick or a hidden obligation. What has worth is worth paying for. By paying your own way you stay clear of gratitude, guilt, and deceit. It is also often wise to pay the full price – there is no cutting corners with excellence. Be lavish with your money and keep it circulating, for generosity is a sign and a magnet for power."
+	},
+	{
+		"name": "41",
+		"title": "Avoid Stepping into a Great Man’s Shoes",
+		"desc": "What happens first always appears better and more original than what comes after. If you succeed a great man or have a famous parent, you will have to accomplish double their achievements to outshine them. Do not get lost in their shadow, or stuck in a past not of your own making: Establish your own name and identity by changing course. Slay the overbearing father, disparage his legacy, and gain power by shining in your own way."
+	},
+	{
+		"name": "42",
+		"title": "Strike the Shepherd and the Sheep will Scatter",
+		"desc": "Trouble can often be traced to a single strong individual – the stirrer, the arrogant underling, the poisoned of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them – they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter."
+	},
+	{
+		"name": "43",
+		"title": "Work on the Hearts and Minds of Others",
+		"desc": "Coercion creates a reaction that will eventually work against you. You must seduce others into wanting to move in your direction. A person you have seduced becomes your loyal pawn. And the way to seduce others is to operate on their individual psychologies and weaknesses. Soften up the resistant by working on their emotions, playing on what they hold dear and what they fear. Ignore the hearts and minds of others and they will grow to hate you."
+	},
+	{
+		"name": "44",
+		"title": "Disarm and Infuriate with the Mirror Effect",
+		"desc": "The mirror reflects reality, but it is also the perfect tool for deception: When you mirror your enemies, doing exactly as they do, they cannot figure out your strategy. The Mirror Effect mocks and humiliates them, making them overreact. By holding up a mirror to their psyches, you seduce them with the illusion that you share their values; by holding up a mirror to their actions, you teach them a lesson. Few can resist the power of Mirror Effect."
+	},
+	{
+		"name": "45",
+		"title": "Preach the Need for Change, but Never Reform too much at Once",
+		"desc": "Everyone understands the need for change in the abstract, but on the daytoday level people are creatures of habit. Too much innovation is traumatic, and will lead to revolt. If you are new to a position of power, or an outsider trying to build a power base, make a show of respecting the old way of doing things. If change is necessary, make it feel like a gentle improvement on the past."
+	},
+	{
+		"name": "46",
+		"title": "Never appear too Perfect",
+		"desc": "Appearing better than others is always dangerous, but most dangerous of all is to appear to have no faults or weaknesses. Envy creates silent enemies. It is smart to occasionally display defects, and admit to harmless vices, in order to deflect envy and appear more human and approachable. Only gods and the dead can seem perfect with impunity."
+	},
+	{
+		"name": "47",
+		"title": "Do not go Past the Mark you Aimed for; In Victory, Learn when to Stop",
+		"desc": "The moment of victory is often the moment of greatest peril. In the heat of victory, arrogance and overconfidence can push you past the goal you had aimed for, and by going too far, you make more enemies than you defeat. Do not allow success to go to your head. There is no substitute for strategy and careful planning. Set a goal, and when you reach it, stop."
+	},
+	{
+		"name": "48",
+		"title": "Assume Formlessness",
+		"desc": "By taking a shape, by having a visible plan, you open yourself to attack. Instead of taking a form for your enemy to grasp, keep yourself adaptable and on the move. Accept the fact that nothing is certain and no law is fixed. The best way to protect yourself is to be as fluid and formless as water; never bet on stability or lasting order. Everything changes."
+	},
+    {
+		"name": "49",
+		"title": "Don’t think — know and act",
+		"desc": "<i>“Don’t think. You already know what you have to do, and you know how to do it. What’s stopping you?</i>” — Tim Grover. <br/> Rather than analyzing and thinking, act. Attuned to your senses, and with complete trust in yourself, do what you instinctively feel you should. As Oprah has said, <i>“Every right decision I have ever made has come from my gut. Every wrong decision I’ve made was the result of me not listening to the greater voice of myself.”</i> The moment you start thinking, you’ve already lost. Thinking swiftly pulls you out of the zone."
+    },
+	{
+		"name": "50",
+		"title": "Always be prepared so you have the freedom to act on instinct",
+		"desc": "<i>“Just as the yin-yang symbol possesses a kernel of light in the dark, and of dark in the light, creative leaps are grounded in a technical foundation.” — Josh Waitzkin</i> Become a master of your craft. While everyone else is relaxing, you’re practicing and perfecting. Learn the left-brained rules in and out so your right brain can have limitless freedom to break the rules and create. <br/> With enhanced consciousness, time will slow down for you. You’ll see things in several more frames than others. While they’re trying to react to the situation, you’ll be able to manipulate and tweak the situation to your liking."
+    
+    },
+	{
+		"name": "51",
+		"title": "Don’t be motivated by money or anything external",
+		"desc": "Having nice things is, well, nice. But for you, it’s never been about the money, prestige or anything else outside of you. Take these things away and nothing changes for you. You’re still going to be pushing your personal limits and giving it your all. Give these things to you and they won’t destroy you like they do most people."
+    },
+	{
+		"name": "52",
+		"title": "Never be satisfied",
+		"desc": "<i>“The drive to close the gap between near-perfect and perfect is the difference between great and unstoppable.” </i> — Tim Grover <br/> Even after you achieve a goal, you’re not content. For you, it’s not even about the goal. It’s about the climb to see how far you can push yourself. <br/> Does this make you ungrateful? Absolutely not. You’re entirely humbled and grateful for everything in your life. Which is why you will never get complacent or lazy. To quote Jim Rohn, <i>“The way to enjoy life best is to wrap up one goal and start right on the next one. Don’t linger too long at the table of success, the only way to enjoy another meal is to get hungry.”</i>"
+    },
+	{
+		"name": "53",
+		"title": "Always be in control",
+		"desc": "Unlike most people, who are dependent on substances or other external factors, you are in control of what you put in your body, how you spend your time and how long you stay in the zone. Act based on instinct, not impulse. Just because you could doesn’t mean you do. And when you do, it’s because you want to, not because you have to."
+    },
+	{
+		"name": "54",
+		"title": "Be true to yourself",
+		"desc": "Have the self-respect and confidence to live life on your terms. When something isn’t right in your life, change it. Immediately."
+    },
+	{
+		"name": "55",
+		"title": "Never let off the pressure",
+		"desc": "<i>“Pressure can bust pipes, but it also can make diamonds.”</i> — Robert Horry Most people can handle pressure in small doses. But when left to their own devices, they let off the pressure and relax. Not you. You never take the pressure off yourself. Instead, you continuously turn-up the pressure. It’s what keeps you alert and active."
+    },
+	{
+		"name": "56",
+		"title": "Don’t be afraid of the consequences of failure",
+		"desc": "Most people stay close to the ground, where it’s safe. If they fall, it won’t hurt that bad. But when you choose to fly high, the fall may kill you. And you’re OK with that. To you, there is no ceiling and there is no floor. It’s all in your head. If something goes wrong — if you “fail” — you adjust and keep going."
+    },
+	{
+		"name": "57",
+		"title": "Don’t compete with others. Make them compete with you",
+		"desc": "Most people are competing with <i>other</i> people. They continuously check-in to see what others in their space (their “competition”) are doing. As a result, they mimic and copy what’s “working.” <br/>Conversely, you’ve left all competition behind. Competing with others makes absolutely zero sense to you. It pulls you from your authentic zone. So you zone out all the external noise and instead zone in to your internal pressure to produce."
+    },
+	{
+		"name": "58",
+		"title": "Never stop learning",
+		"desc": "Ordinary people seek entertainment. Extraordinary people seek education and learning. When you want to become the best at what you do, you never stop learning. You never stop improving and honing your skills and knowledge. Your unparalleled preparation is what gives you power. No one else is willing to pay the price you’ve paid."
+    },
+	{
+		"name": "59",
+		"title": "Success isn’t enough — it only increases the pressure",
+		"desc": "For most people, becoming “successful” is enough. However, when you’re relentless, success only increases the pressure to do more. Immediately following the achievement of a goal, you’re focused on your next challenge."
+    },
+	{
+		"name": "60",
+		"title": "Don’t get crushed by success",
+		"desc": "<i>“Success can become a catalyst for failure.”</i> — Greg McKeown Most people can’t handle success, authority or privilege. It destroys them. It makes them lazy. When they get what they want, they stop doing the very things that got them there. The external noise becomes too intense. But for you, no external noise can push harder than your own internal pressure. It’s not about this achievement, but the one after, and the one after that. There is no destination. Only when you’re finished."
+    },
+	{
+		"name": "61",
+		"title": "Completely own it when you screw up",
+		"desc": "<i>Implementing extreme ownership requires checking your ego and operating with a high degree of humility. Admitting mistakes, taking ownership and developing a plan to overcome challenges are integral to any successful team.”</i> ―Jocko Willink <br/> No blame. No deception or illusion. Just the cold hard truth. When you mess up, you own it. And as the leader, you own it when your team fails. Only with extreme ownership can you have complete freedom and control."
+    },
+	{
+		"name": "62",
+		"title": "Let your work speak for itself",
+		"desc": "<i>“Well done, is well said.” — Anthony Liccione</i> <br/> Deep work is: Rare, High value and non-replicable. Shallow works is Common, Low value and replicable. <br/> Talking is shallow. Anyone can do it. It’s easily replicated. It’s low value.Conversely, deep work is rare. It’s done by people who are focused and working while everyone else is talking. Deep work is so good it can’t be ignored."
+    },
+	{
+		"name": "63",
+		"title": "Always work on your mental strength",
+		"desc": "<i>“Mental resilience is arguably the most critical trait of a world-class performer, and it should be nurtured continuously. Left to my own devices, I am always looking for ways to become more and more psychologically impregnable. When uncomfortable, my instinct is not to avoid the discomfort but to become at peace with it. My instinct is always to seek out challenges as opposed to avoiding them.”</i> — Josh Waitzkin The better you can be under pressure, the further you’ll go than anyone else. Because they’ll crumble under pressure. The best training you will ever do is mental training. <br/> Wherever your mind goes, your body follows. Wherever your thoughts go, your life follows."
+    },
+	{
+		"name": "64",
+		"title": "Confidence is your greatest asset",
+		"desc": "You’ve heard it before: Running a marathon is far more mental than physical. A person’s ability to run a marathon — or do anything hard — is more a reflection of their level of confidence than their actual ability. <br/> If you’re not confident, you will never put yourself out there in the first place. When you’re confident, you don’t care how many times you fail, you’re going to succeed. And it doesn’t matter how stacked the odds seem against you."
+    },
+	{
+		"name": "65",
+		"title": "Surround yourself with people who remind you of the future, not the past",
+		"desc": "When you surround yourself with people who remind you of your past, you’ll have a hard time progressing. This is why we get stuck in certain roles, which we can’t break free from. Surrounding yourself with people who you want to be like allows you a fresh slate. You’re no longer defined by your past, only the future you are creating. <br/> According to “the Pygmalion Effect,” the expectations of those around you in large measure determines how well you perform."
+    },
+	{
+		"name": "66",
+		"title": "Let things go, but never forget",
+		"desc": "Being unstoppable requires carrying no unnecessary mental or emotional baggage. Consequently, you’ll need to immediately and completely forgive anyone who has wronged you. However, forgiveness doesn’t mean you forget. And it doesn’t mean you have to do further business with those who have wronged you."
+    },
+	{
+		"name": "67",
+		"title": "Have clear goals",
+		"desc": "“While a fixation on results is certainly unhealthy, short-term goals can be useful developmental tools if they are balanced within a nurturing long-term philosophy.” — Josh Waitzkin"
+    },
+	{
+		"name": "68",
+		"title": "Respond immediately, rather than analyzing or stalling",
+		"desc": "<i>“He who hesitates is lost.” — Cato</i> Anticipation of an event is always more extreme than the event itself — both for positive and negative events. Just do it. Train yourself to respond immediately when you feel you should do something. Stop questioning yourself. Don’t analyze it. Don’t question if it came from God or from yourself. Just act. <br/> You’ll figure out what to do after you’ve taken action. Until you take action, it will all be hypothetical. But once you act, it becomes practical."
+    },
+	{
+		"name": "69",
+		"title": "Choose simplicity over complication",
+		"desc": "<i>“If you can’t explain it simply, you don’t understand it well enough.”</i> — Albert Einstein It’s easy to be complicated. Cutting to the core and hitting the truth is hard, because it’s simple. As Leonardo da Vinci has said, “Simplicity is the ultimate sophistication.” Very few people will give you the truth. When you ask them a question, it gets mighty complicated. “There are so many variables” or “It depends” they say. T. S. Eliot said it best, “Where is the wisdom we have lost in knowledge? Where is the knowledge we have lost in information?” Wisdom is timeless and simple. Learn wisdom and choose it."
+    },
+	{
+		"name": "70",
+		"title": "Never be jealous or envious of someone else’s accomplishments",
+		"desc": "Jealousy and envy are the ego — which operates out of fear. The reason you are happy for other people’s success is because their success has nothing to do with you. You are in control of you. And you are different from every other person. There is no one who can do exactly what you can do. You have your own superpower with your own unique ability to contribute. And that’s what you’re going to do."
+    },
+	{
+		"name": "71",
+		"title": "Take the shot every time",
+		"desc": "<i>“If I fail more than you, I win.”<i/> — Seth Godin You miss every shot you don’t take. And most people don’t want to take the shot. Fear of failure paralyzes them. The only way you can become unstoppable is if you stop thinking about it.Just take the shot. Don’t do it only when it’s convenient or when you feel ready. Just go and make whatever adjustments you need after the fact."
+    },
+	{
+		"name": "72",
+		"title": "Don’t get caught up in the results of your success. Always remain focused on what got you those results: the work",
+		"desc": "When you start doing noteworthy stuff, there are benefits that can become distractions. It can get easy to “ride the wave” of your previous work. Keep practicing. Perfect your craft. Never forget what got you here."
+    },
+	{
+		"name": "73",
+		"title": "Think and act 10X",
+		"desc": "When 10X is your measuring stick, you immediately see how you can bypass what everyone else is doing.” — Dan Sullivan"
+    },
+	{
+		"name": "74",
+		"title": "Set goals that far exceed your current capabilities",
+		"desc": "You need to aim beyond what you are capable of. You need to develop a complete disregard for where your abilities end. If you think you’re unable to work for the best company in its sphere, make that your aim. If you think you’re unable to be on the cover of TIME magazine, make it your business to be there. Make your vision of where you want to be a reality. Nothing is impossible.” — Paul Arden <br/>“Don’t wish it was easier, wish you were better.”"
+    },
+	{
+		"name": "75",
+		"title": "Make time for recovery and rejuvenation",
+		"desc": "<i>“Wherever you are, make sure you’re there.” — Dan Sullivan</i> When you focus on results, rather than being busy, you’re 100 percent on when you’re working and 100 percent off when you’re not. This not only allows you to be present in the moment, but it allows you the needed time to rest and recover."
+    },
+	{
+		"name": "76",
+		"title": "Start before you’re ready",
+		"desc": "<i>“The best time to plant a tree was 20 years ago. The second best time is now.”</i> — Chinese Proverb Most people wait. They believe they can start after they have enough time, money, connections and credentials. They wait until they feel “secure.” Not people who are unstoppable. Unstoppable people started last year. They started five years ago before they even knew what they were doing. They started before they had any money. They started before they had all the answers. They started when no one else believed in them. The only permission they needed was the voice inside them prompting them to move forward. And they moved."
+    },
+	{
+		"name": "77",
+		"title": "If you need permission, you probably shouldn’t do it",
+		"desc": "No one will ever give you permission to live your dreams. “Those who are going to succeed at something will go ahead to do it regardless of what anyone says,” he told me."
+    },
+	{
+		"name": "78",
+		"title": "Don’t make exceptions",
+		"desc": "<i>“Had I bowed to my human, physical, emotional and mental desire to sleep in, I would have made that exception. A week later, I might have made an exception if I only got four hours of sleep. A week later, maybe I only got seven hours of sleep. The exception so many times becomes the rule. Had I slept in, I would’ve faced that danger. Watch those exceptions!”</i> - Zig Ziglar"
+    }
+]
