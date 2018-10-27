@@ -4,6 +4,7 @@
 		<title>New Tab - Random 48 Laws of Power</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="styles.css" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="container">
@@ -16,9 +17,29 @@
 			<div id="content">
 				<p id="law-title"></p>
 				<p id="law-desc"></p>
+				<div>
+					<div id="fb-share-dialog" class="social-share-button" style="float: right;">
+						<span><i class="fa fa-facebook-f"></i>Share</span>
+					</div>
+					<div id="twitter-share-dialog" class="social-share-button">
+						<span><i class="fa fa-twitter"></i>Share</span>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</body>
 	<script type="text/javascript" src="laws.json"></script>
-	 <script src="index.js"></script>
+	<script src="index.js"></script>
+	<!-- FB SDK -->
+	<script>
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "https://connect.facebook.net/es_LA/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script> 
+	
 </html>

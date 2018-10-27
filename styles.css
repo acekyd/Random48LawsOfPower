@@ -63,3 +63,17 @@ body {
 	font-size: 125px;
 	font-weight: 300;
 }
+
+.social-share-button {
+	width: 30%;
+    background-color: #131111;
+    font-size: 20px;
+    line-height: 1.5;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.social-share-button i {
+	margin-right: 5px;
+    font-size: 17px;
+}
